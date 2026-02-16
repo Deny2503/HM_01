@@ -1,13 +1,6 @@
-import {
-  SafeAreaView,
-  View,
-  Text,
-  StyleSheet,
-  Image,
-  ScrollView,
-  Pressable,
-} from "react-native";
+import { Text, StyleSheet, Image, ScrollView, Pressable } from "react-native";
 import { Link } from "expo-router";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function AboutScreen() {
   return (
